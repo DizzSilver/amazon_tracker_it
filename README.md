@@ -1,16 +1,16 @@
 # amazon_tracker_it
-Un semplice script che permette di tenere traccia del prezzo di uno o più prodotti Amazon, per poi creare grafici e/o venire notificati della scesa di un prezzo.
 
-**Requisiti**:      beautifulsoup4, pandas, requests.
-
-**Descrizione**:    Questo semplice script tiene traccia del prezzo di un prodotto Amazon a scelta.
-                *Funziona solo con la versione italiana di Amazon* per il modo in cui il prezzo viene
+**Descrizione**:    Questo semplice script permette di tenere traccia del prezzo di uno o più prodotti 
+                Amazon, per poi creare grafici e/o venire notificati della scesa di un prezzo.
+                **Funziona solo con la versione italiana di Amazon** per il modo in cui il prezzo viene
                 formattato. (es. nella versione spagnola ci sono separatori diversi, 
                 nella versione inglese cambiano sia i separatori che il simbolo ecc.).
-                   
+              
 Il vantaggio di questo script è che a differenza di altri permette di visualizzare, 
 copiare o anche modificare il file .csv mentre il programma è in esecuzione, 
 **tranne quando sta eseguendo il salvataggio (circa 3 secondi ogni 6 ore di default).**
+
+**Requisiti**:      beautifulsoup4, pandas, requests.
 
 **Istruzioni**:     Non c'è bisogno di creare e configurare nessun database, tutti i dati verrano salvati
                 all'interno del file con estensione .csv all'interno della cartella "dati", 
