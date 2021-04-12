@@ -8,16 +8,16 @@ Descrizione:    Questo semplice script tiene traccia del prezzo di un prodotto A
                 formattato. (es. nella versione spagnola ci sono separatori diversi, 
                 nella versione inglese cambiano sia i separatori che il simbolo ecc.).
                    
-                Il vantaggio di questo script è che a differenza di altri permette di visualizzare, 
-                copiare o anche modificare il file .csv mentre il programma è in esecuzione, 
-                *tranne quando sta eseguendo il salvataggio (circa 3 secondi ogni 6 ore di default).*
+Il vantaggio di questo script è che a differenza di altri permette di visualizzare, 
+copiare o anche modificare il file .csv mentre il programma è in esecuzione, 
+*tranne quando sta eseguendo il salvataggio (circa 3 secondi ogni 6 ore di default).*
 
 Istruzioni:     Non c'è bisogno di creare e configurare nessun database, tutti i dati verrano salvati
                 all'interno del file con estensione .csv all'interno della cartella "dati", 
                 quindi facilmente importabile su excel per creare grafici o altro.
 
-                Avviare con "python3 main.py" e tenere il programma aperto (preferibilmente su un server, 
-                o anche più comodamente su un Raspberry Pi perciò che sia sempre in esecuzione) e aspettare.
+Avviare con "python3 main.py" e tenere il programma aperto (preferibilmente su un server, 
+o anche più comodamente su un Raspberry Pi perciò che sia sempre in esecuzione) e aspettare.
                  
 *ATTENZIONE*:   Dare un occhiata al codice perché ci sono varie cose da modificare
                 per adattare lo script alle proprie esigenze ma soprattutto per farlo funzionare, 
